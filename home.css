@@ -1,0 +1,337 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #131619;;
+    width: 1920px
+}
+
+
+
+header {
+    width: 1920px;
+    background-color: #131619; /* колір хедера */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.login-button {
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius:30px ;
+    width: 100px;
+    height: 38px;
+  }
+.left, .center, .right {
+    /* flex: 1; */
+    padding: 10px;
+    /* додайте інші стилі за необхідності */
+}
+.left {
+    margin-right: 500px; /* розташовує лівий елемент ближче до лівого краю */
+}
+
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px; /* розташовує правий елемент ближче до правого краю */
+    margin-right: 0;
+}
+.center {
+    display: flex;
+    justify-content: center;
+     /* розташовує правий елемент ближче до правого краю */
+    margin-right: 0;
+}
+main {
+    width: 1920px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+footer{
+    width: 1920px;
+    background-color: #131619; /* колір хедера і футера */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.search-box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black; /* тоненька чорна рамочка */
+    border-radius: 25px; /* заокруглені кути */
+    position: relative;
+    background-color: #131619;
+}
+
+input[type="text"] {
+    width: calc(100% - 30px); /* враховує ширину стрілочки */
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: #131619;
+}
+
+.submit-button {
+    background-color: #131619;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+p{
+    color:white;
+}
+.img-text{
+    display: flex;
+    justify-content: left;
+}
+.slogan{
+    margin-top: 100px;
+}
+.na-me{
+    font-size: 200px;
+    margin-left: 40px;
+    color:white;
+}
+.image-container {
+    margin-top: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 100vh; Adjust the height as needed */
+  }
+  
+  /* .image-container img {
+    /* max-width: 100%;
+    height: auto;} */
+    .image-item {
+        text-align: center;
+      }
+      .contact-box {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid white; /* тоненька чорна рамочка */
+        border-radius: 25px; /* заокруглені кути */
+        position: relative;
+        background-color: black;
+        margin-top: -100px;
+      
+    }
+    .text1[type="text"] {
+        width: calc(100% - 30px); /* враховує ширину стрілочки */
+        padding: 8px;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 5px;
+        background-color: black;
+       
+    }
+    .image-container1 {
+        
+        background-color:#131619;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* height: 100vh; Adjust the height as needed */
+      }
+      
+      /* .image-container img {
+        /* max-width: 100%;
+        height: auto;} */
+        .image-item {
+            text-align: center;
+          }
+          .contact-box1 {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 10px;
+            border: 1px solid white; /* тоненька чорна рамочка */
+            border-radius: 25px; /* заокруглені кути */
+            position: relative;
+            background-color:#131619;
+            margin-top: -100px;
+          
+        }
+        .text12[type="text"] {
+            width: calc(100% - 30px); /* враховує ширину стрілочки */
+            padding: 8px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            background-color: #131619;
+           
+        }
+        .image-container3 {
+        
+            background-color:black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* height: 100vh; Adjust the height as needed */
+          }
+          
+          /* .image-container img {
+            /* max-width: 100%;
+            height: auto;} */
+            .image-item {
+                text-align: center;
+              }
+              .contact-box2 {
+                max-width: 400px;
+                margin: 0 auto;
+                padding: 10px;
+                border: 1px solid white; /* тоненька чорна рамочка */
+                border-radius: 25px; /* заокруглені кути */
+                position: relative;
+                background-color:#000;
+                margin-top: -100px;
+              
+            }
+            .text123[type="text"] {
+                width: calc(100% - 30px); /* враховує ширину стрілочки */
+                padding: 8px;
+                box-sizing: border-box;
+                border: none;
+                border-radius: 5px;
+                background-color: #000;
+               
+            }
+            .image-bottom{
+                margin-top: 100px;
+            }
+            .photo-container {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                 /* Висота контейнера на весь екран */
+              }
+          
+              /* Задаємо стилі для кожної фотографії */
+              .photo {
+                max-width: 100%; /* Забезпечуємо, що фотографія не виходить за межі контейнера */
+                height: auto; /* Зберігаємо пропорції фотографії */
+              }
+              .photo-container1 {
+                margin-left: 100px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                 /* Висота контейнера на весь екран */
+              }
+          
+              /* Задаємо стилі для кожної фотографії */
+              .photo1 {
+                max-width: 100%; /* Забезпечуємо, що фотографія не виходить за межі контейнера */
+                height: auto; /* Зберігаємо пропорції фотографії */
+              }
+              .recomend-karft{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 100px;
+              }
+              .size-h{
+                font-size: 50px;
+                color:white;
+                text-align: center;
+                
+              }
+              .search-container {
+                display: flex;
+                flex-direction: column;
+                max-width: 800px;
+                margin: 20px auto;
+              }
+          
+              /* Задаємо стилі для кожного пошукового інпуту */
+              .search-container input[type="text"] {
+                margin-bottom: 10px;
+                padding: 8px;
+                font-size: 16px;
+                border: 1px solid white; 
+                border-radius: 30px;
+                width: 558px;
+                height: 54px;
+                background-color: #000;
+              }
+          
+              /* Задаємо стилі для кнопки */
+              .search-container button {
+                background-color: #000;
+                color: white;
+                border: 1px solid white;
+          
+                cursor: pointer;
+                padding: 8px;
+                font-size: 16px;
+                border-radius: 30px;
+                width: 187px;
+                height: 54px;
+              }
+              .black-under-fig{
+                background-color: #000;
+              }
+              .bottom-karft{
+                display: flex;
+                justify-content: left;
+              }
+              .size-text{
+                font-size: 30px;
+                margin-top:150px
+              }
+              .cont {
+                display: flex;
+                justify-content: space-between;
+                max-width: 1900px;
+                margin: 20px auto;
+              }
+          
+              /* Задаємо стилі для кожного діва */
+              .box {
+                flex: 1;
+                
+                padding: 10px;
+                margin: 5px;
+              }
+
+              .box1 {
+                flex: 1;
+                font-size: 20px;
+                padding: 10px;
+                margin: 5px;
+              }
+              .email-cont {
+                max-width: 300px;
+                margin: 20px auto;
+              }
+          
+              /* Задаємо стилі для поля введення та кнопки */
+              .email-cont input[type="email"] {
+                width: 305px;
+                height: 54px;
+                padding: 8px;
+                font-size: 16px;
+                background-color:#131619;
+                border-radius: 30px;
+              }
+              .img-social{
+                display: flex;
+                justify-content: space-evenly;
+              }
+              
